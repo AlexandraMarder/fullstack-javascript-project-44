@@ -6,4 +6,4 @@
 
 ### Recordings:
 
-#### Brain-Even: <a href="https://asciinema.org/a/ucK9mXYDHnWENOAyNhBa6eO3N"></a>
+[Brain-Even](https://asciinema.org/a/ucK9mXYDHnWENOAyNhBa6eO3N)
