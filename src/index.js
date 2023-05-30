@@ -14,6 +14,8 @@ const getQuestion = (title) => {
     console.log('What is the result of the expression?');
   } else if (title === 'gcd') {
     console.log('Find the greatest common divisor of given numbers.');
+  } else if (title === 'progression') {
+    console.log('What number is missing in the progression?');
   }
 };
 
