@@ -35,6 +35,7 @@ const game = (title, getGame) => {
       wins += 1;
     } else {
       console.log(`'${guess}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
+      break;
     }
     tries -= 1;
   }
