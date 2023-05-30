@@ -1,5 +1,3 @@
-import readlineSync, { question } from 'readline-sync';
-
 const isEven = (randomValue) => {
   let correctAnswer;
   if (randomValue % 2 === 0) {

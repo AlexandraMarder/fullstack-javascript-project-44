@@ -12,6 +12,8 @@ const getQuestion = (title) => {
     console.log('Answer "yes" if the number is even, otherwise answer "no".');
   } else if (title === 'calc') {
     console.log('What is the result of the expression?');
+  } else if (title === 'gcd') {
+    console.log('Find the greatest common divisor of given numbers.');
   }
 };
 
@@ -21,7 +23,7 @@ const game = (title, getGame) => {
   let wins = 0;
   let tries = 3;
   while (tries > 0) {
-    const [question, correctAnswer] = getGame()
+    const [question, correctAnswer] = getGame();
     console.log(`Question: ${question}`);
     const guess = readlineSync.question('Your answer: ');
     if (guess === correctAnswer) {
