@@ -8,6 +8,10 @@
   },
   "author": "AlexandraMarder",
   "license": "ISC",
+  "type": "module",
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+},
   "devDependencies": {
     "@eslint/create-config": "^1.0.0",
     "@eslint/eslintrc": "^3.1.0",
