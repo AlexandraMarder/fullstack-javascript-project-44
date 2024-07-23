@@ -10,7 +10,7 @@ const gameFunction = () => {
   const step = Math.floor(Math.random() * 10) + 1;
 
   const array = [start];
-  for (let i = 0; i < progressionLength; i++) {
+  for (let i = 0; i < progressionLength; i + 1) {
     array.push(array[i] + step);
   }
 
