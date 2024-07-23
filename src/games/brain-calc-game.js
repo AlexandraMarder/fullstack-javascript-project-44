@@ -1,8 +1,8 @@
-import { playGame } from "../index.js";
+import playGame from '../index.js';
 
 const getTitle = () => {
   console.log('What is the result of the expression?');
-}
+};
 
 const gameFunction = () => {
   const random1 = Math.floor(Math.random() * 10) + 1;
@@ -24,7 +24,6 @@ const gameFunction = () => {
   console.log(`Question: ${random}`);
   return correctAnswer.toString();
 };
-
 
 const playBrainCalc = () => {
   playGame(gameFunction, getTitle);

@@ -1,8 +1,8 @@
-import { playGame } from "../index.js";
+import playGame from '../index.js';
 
 const getTitle = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-}
+};
 
 const gameFunction = () => {
   const random = Math.floor(Math.random() * 100) + 1;
@@ -10,7 +10,6 @@ const gameFunction = () => {
   console.log(`Question: ${random}`);
   return correctAnswer;
 };
-
 
 const playBrainEven = () => {
   playGame(gameFunction, getTitle);
