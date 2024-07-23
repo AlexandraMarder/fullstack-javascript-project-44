@@ -11,7 +11,7 @@ const findDivider = (a, b) => {
     a = temp;
   }
   return a;
-}
+};
 
 const gameFunction = () => {
   const random1 = Math.floor(Math.random() * 100) + 1;
